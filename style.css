@@ -5,7 +5,9 @@ body{
 	text-decoration: none;
 }
 .contener{
-	
+	border: 8px solid black;
+	box-sizing: border-box;
+	border-radius: 10px;
 	background-color: #f1f1f1;
 	position:absolute;
 	top:50%;
@@ -13,7 +15,6 @@ body{
 	transform: translate(-50%, -50%);
 }
 .img-section{
-
 	overflow: hidden;
 	position: relative;
 }
@@ -21,7 +22,8 @@ body{
 	width: 275px;
 	height: 275px;
 	margin: 20px;
-	margin-top: 50px;
+	border: 2px solid black;;
+	border-radius: 10px;
 }
 .navigation{
 	text-align: center;
@@ -31,14 +33,15 @@ body{
 	height: 60px;
 	margin: 10px 5px;
 	cursor: pointer;
+	border: 2px solid black;;
+	border-radius: 10px;
 }
 .navigation img:hover{
 	transform: scale(1.2);
 }
 .price{
-	position: absolute;
-	top: 20px;
-	right: 20px;
+	text-align: center;
+	margin: 10px 0;
 	color: #333;
 	font-size: 25px;
 	font-weight: bold;
